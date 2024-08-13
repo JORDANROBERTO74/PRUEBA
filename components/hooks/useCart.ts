@@ -9,7 +9,7 @@ const useCart = () => {
   React.useEffect(() => {
     const savedCart = JSON.parse(localStorage.getItem('cart') || '[]') as any[]
     setCartProductList(savedCart) // Actualiza el contexto con los productos guardados en el localStorage
-  }, [])
+  }, [setCartProductList])
 
   const addToCart = (product: any) => {
     try {

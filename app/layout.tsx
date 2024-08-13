@@ -5,10 +5,7 @@ import { cn } from '@/lib/utils'
 import { ThemeProvider } from '@/components/theme-provider'
 import Header from '@/components/navigation/header/index'
 import { CartListProvider } from '@/components/context'
-import SideMenu from '@/components/navigation/sideNavigation/index'
 import MainContent from '@/components/navigation/MainContent'
-import BottomMenu from '@/components/navigation/bottomNavigation'
-import ClientProvider from '@/components/ClientProvider'
 import { Toaster } from '@/components/ui/toaster'
 
 const fontSans = FontSans({
